@@ -1,5 +1,8 @@
 class Polygon {
-    constructor(x,y,width,height) {
+    constructor(x,y,radius) {
+        var options={
+            isStatic: true
+        }
       this.body = Bodies.circle(x,y,radius);
       this.radius = radius;
       World.add(world, this.body);
