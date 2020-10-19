@@ -5,6 +5,7 @@ const Constraint = Matter.Constraint;
 
 var ground1,ground2,ball;
 var polygon;
+block1, block2,block3,block4,block5,block6,block7,block8,block9,block10,block11,block12,block13,block14,block15,block16,block17,block18,block19,block20,block21,block22,block23,block24,block25;
 
 function setup() {
   createCanvas(1400,800);
